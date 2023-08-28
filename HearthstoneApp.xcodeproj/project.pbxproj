@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 53;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0171C572A97D9900076419F /* CardListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0171C562A97D9900076419F /* CardListPresenter.swift */; };
+		A0171C592A97D9A70076419F /* CardListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0171C582A97D9A70076419F /* CardListInteractor.swift */; };
+		A0171C602A97DA990076419F /* CardDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0171C5F2A97DA990076419F /* CardDetailInteractor.swift */; };
+		A0171C622A97DAA90076419F /* CardDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0171C612A97DAA90076419F /* CardDetailPresenter.swift */; };
+		A0171C642A97DAF40076419F /* CardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0171C632A97DAF40076419F /* CardList.swift */; };
+		A0171C682A97DB150076419F /* CardDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0171C672A97DB150076419F /* CardDetail.swift */; };
+		A0171C6B2A97DCB00076419F /* HearthstoneAPI in Frameworks */ = {isa = PBXBuildFile; productRef = A0171C6A2A97DCB00076419F /* HearthstoneAPI */; };
+		A035B9432A97B2A000DBFA54 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A035B9422A97B2A000DBFA54 /* App.swift */; };
+		A035B9452A97B2A000DBFA54 /* CardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A035B9442A97B2A000DBFA54 /* CardListView.swift */; };
+		A035B9472A97B2A000DBFA54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A035B9462A97B2A000DBFA54 /* Assets.xcassets */; };
+		A035B94B2A97B2A000DBFA54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A035B94A2A97B2A000DBFA54 /* Preview Assets.xcassets */; };
+		A035B95F2A97B2A100DBFA54 /* HearthstoneAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A035B95E2A97B2A100DBFA54 /* HearthstoneAppUITests.swift */; };
+		A035B9612A97B2A100DBFA54 /* HearthstoneAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A035B9602A97B2A100DBFA54 /* HearthstoneAppUITestsLaunchTests.swift */; };
+		A0549BDA2A9A2A0E004982A9 /* ArchitectureKit in Frameworks */ = {isa = PBXBuildFile; productRef = A0549BD92A9A2A0E004982A9 /* ArchitectureKit */; };
+		A0682D4E2A9AA707007D09A5 /* CardDetailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0682D4D2A9AA707007D09A5 /* CardDetailTests.swift */; };
+		A06F540D2A9A4CBD00AA5B27 /* CardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A035B9442A97B2A000DBFA54 /* CardListView.swift */; };
+		A08D77092A9A3A5900DE6B38 /* CardListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08D77082A9A3A5900DE6B38 /* CardListTests.swift */; };
+		A08D770A2A9A3AB800DE6B38 /* CardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0171C632A97DAF40076419F /* CardList.swift */; };
+		A08D770C2A9A3AC000DE6B38 /* CardListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0171C582A97D9A70076419F /* CardListInteractor.swift */; };
+		A08D770D2A9A3AC200DE6B38 /* CardListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0171C562A97D9900076419F /* CardListPresenter.swift */; };
+		A08D770E2A9A401800DE6B38 /* CardDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0171C672A97DB150076419F /* CardDetail.swift */; };
+		A08D77102A9A401C00DE6B38 /* CardDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0171C5F2A97DA990076419F /* CardDetailInteractor.swift */; };
+		A08D77112A9A401E00DE6B38 /* CardDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0171C612A97DAA90076419F /* CardDetailPresenter.swift */; };
+		A0CDFDB12A9BB509002E130F /* CardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CDFDB02A9BB509002E130F /* CardDetailView.swift */; };
+		A0CDFDB22A9BB5D9002E130F /* CardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CDFDB02A9BB509002E130F /* CardDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A035B9512A97B2A100DBFA54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A035B9372A97B2A000DBFA54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A035B93E2A97B2A000DBFA54;
+			remoteInfo = HearthstoneApp;
+		};
+		A035B95B2A97B2A100DBFA54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A035B9372A97B2A000DBFA54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A035B93E2A97B2A000DBFA54;
+			remoteInfo = HearthstoneApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0171C562A97D9900076419F /* CardListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListPresenter.swift; sourceTree = "<group>"; };
+		A0171C582A97D9A70076419F /* CardListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListInteractor.swift; sourceTree = "<group>"; };
+		A0171C5F2A97DA990076419F /* CardDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailInteractor.swift; sourceTree = "<group>"; };
+		A0171C612A97DAA90076419F /* CardDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailPresenter.swift; sourceTree = "<group>"; };
+		A0171C632A97DAF40076419F /* CardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardList.swift; sourceTree = "<group>"; };
+		A0171C672A97DB150076419F /* CardDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetail.swift; sourceTree = "<group>"; };
+		A035B93F2A97B2A000DBFA54 /* HearthstoneApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HearthstoneApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A035B9422A97B2A000DBFA54 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		A035B9442A97B2A000DBFA54 /* CardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListView.swift; sourceTree = "<group>"; };
+		A035B9462A97B2A000DBFA54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A035B9482A97B2A000DBFA54 /* HearthstoneApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HearthstoneApp.entitlements; sourceTree = "<group>"; };
+		A035B94A2A97B2A000DBFA54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A035B9502A97B2A100DBFA54 /* HearthstoneAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HearthstoneAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A035B95A2A97B2A100DBFA54 /* HearthstoneAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HearthstoneAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A035B95E2A97B2A100DBFA54 /* HearthstoneAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearthstoneAppUITests.swift; sourceTree = "<group>"; };
+		A035B9602A97B2A100DBFA54 /* HearthstoneAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearthstoneAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A0549BD82A9A2A05004982A9 /* ArchitectureKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ArchitectureKit; sourceTree = "<group>"; };
+		A0682D4D2A9AA707007D09A5 /* CardDetailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailTests.swift; sourceTree = "<group>"; };
+		A08D77082A9A3A5900DE6B38 /* CardListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListTests.swift; sourceTree = "<group>"; };
+		A0CDFDB02A9BB509002E130F /* CardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailView.swift; sourceTree = "<group>"; };
+		A0F7C28F2A97B9C300073F50 /* HearthstoneAPI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = HearthstoneAPI; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A035B93C2A97B2A000DBFA54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0549BDA2A9A2A0E004982A9 /* ArchitectureKit in Frameworks */,
+				A0171C6B2A97DCB00076419F /* HearthstoneAPI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A035B94D2A97B2A100DBFA54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A035B9572A97B2A100DBFA54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0171C552A97D92C0076419F /* CardList */ = {
+			isa = PBXGroup;
+			children = (
+				A0171C632A97DAF40076419F /* CardList.swift */,
+				A0171C652A97DAF80076419F /* VIP */,
+			);
+			path = CardList;
+			sourceTree = "<group>";
+		};
+		A0171C5A2A97D9DB0076419F /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				A0171C552A97D92C0076419F /* CardList */,
+				A0171C5C2A97DA700076419F /* CardDetail */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		A0171C5C2A97DA700076419F /* CardDetail */ = {
+			isa = PBXGroup;
+			children = (
+				A0171C672A97DB150076419F /* CardDetail.swift */,
+				A0171C662A97DB060076419F /* VIP */,
+			);
+			path = CardDetail;
+			sourceTree = "<group>";
+		};
+		A0171C652A97DAF80076419F /* VIP */ = {
+			isa = PBXGroup;
+			children = (
+				A035B9442A97B2A000DBFA54 /* CardListView.swift */,
+				A0171C582A97D9A70076419F /* CardListInteractor.swift */,
+				A0171C562A97D9900076419F /* CardListPresenter.swift */,
+			);
+			path = VIP;
+			sourceTree = "<group>";
+		};
+		A0171C662A97DB060076419F /* VIP */ = {
+			isa = PBXGroup;
+			children = (
+				A0CDFDB02A9BB509002E130F /* CardDetailView.swift */,
+				A0171C5F2A97DA990076419F /* CardDetailInteractor.swift */,
+				A0171C612A97DAA90076419F /* CardDetailPresenter.swift */,
+			);
+			path = VIP;
+			sourceTree = "<group>";
+		};
+		A0171C692A97DCB00076419F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A035B9362A97B2A000DBFA54 = {
+			isa = PBXGroup;
+			children = (
+				A0F7C28E2A97B9C300073F50 /* Packages */,
+				A035B9412A97B2A000DBFA54 /* HearthstoneApp */,
+				A035B9532A97B2A100DBFA54 /* HearthstoneAppTests */,
+				A035B95D2A97B2A100DBFA54 /* HearthstoneAppUITests */,
+				A035B9402A97B2A000DBFA54 /* Products */,
+				A0171C692A97DCB00076419F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A035B9402A97B2A000DBFA54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A035B93F2A97B2A000DBFA54 /* HearthstoneApp.app */,
+				A035B9502A97B2A100DBFA54 /* HearthstoneAppTests.xctest */,
+				A035B95A2A97B2A100DBFA54 /* HearthstoneAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A035B9412A97B2A000DBFA54 /* HearthstoneApp */ = {
+			isa = PBXGroup;
+			children = (
+				A035B9462A97B2A000DBFA54 /* Assets.xcassets */,
+				A035B9492A97B2A000DBFA54 /* Preview Content */,
+				A035B9482A97B2A000DBFA54 /* HearthstoneApp.entitlements */,
+				A035B9422A97B2A000DBFA54 /* App.swift */,
+				A0171C5A2A97D9DB0076419F /* Features */,
+			);
+			path = HearthstoneApp;
+			sourceTree = "<group>";
+		};
+		A035B9492A97B2A000DBFA54 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A035B94A2A97B2A000DBFA54 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A035B9532A97B2A100DBFA54 /* HearthstoneAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A08D77082A9A3A5900DE6B38 /* CardListTests.swift */,
+				A0682D4D2A9AA707007D09A5 /* CardDetailTests.swift */,
+			);
+			path = HearthstoneAppTests;
+			sourceTree = "<group>";
+		};
+		A035B95D2A97B2A100DBFA54 /* HearthstoneAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A035B95E2A97B2A100DBFA54 /* HearthstoneAppUITests.swift */,
+				A035B9602A97B2A100DBFA54 /* HearthstoneAppUITestsLaunchTests.swift */,
+			);
+			path = HearthstoneAppUITests;
+			sourceTree = "<group>";
+		};
+		A0F7C28E2A97B9C300073F50 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				A0F7C28F2A97B9C300073F50 /* HearthstoneAPI */,
+				A0549BD82A9A2A05004982A9 /* ArchitectureKit */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A035B93E2A97B2A000DBFA54 /* HearthstoneApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A035B9642A97B2A100DBFA54 /* Build configuration list for PBXNativeTarget "HearthstoneApp" */;
+			buildPhases = (
+				A035B93B2A97B2A000DBFA54 /* Sources */,
+				A035B93C2A97B2A000DBFA54 /* Frameworks */,
+				A035B93D2A97B2A000DBFA54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HearthstoneApp;
+			packageProductDependencies = (
+				A0171C6A2A97DCB00076419F /* HearthstoneAPI */,
+				A0549BD92A9A2A0E004982A9 /* ArchitectureKit */,
+			);
+			productName = HearthstoneApp;
+			productReference = A035B93F2A97B2A000DBFA54 /* HearthstoneApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A035B94F2A97B2A100DBFA54 /* HearthstoneAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A035B9672A97B2A100DBFA54 /* Build configuration list for PBXNativeTarget "HearthstoneAppTests" */;
+			buildPhases = (
+				A035B94C2A97B2A100DBFA54 /* Sources */,
+				A035B94D2A97B2A100DBFA54 /* Frameworks */,
+				A035B94E2A97B2A100DBFA54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A035B9522A97B2A100DBFA54 /* PBXTargetDependency */,
+			);
+			name = HearthstoneAppTests;
+			productName = HearthstoneAppTests;
+			productReference = A035B9502A97B2A100DBFA54 /* HearthstoneAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A035B9592A97B2A100DBFA54 /* HearthstoneAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A035B96A2A97B2A100DBFA54 /* Build configuration list for PBXNativeTarget "HearthstoneAppUITests" */;
+			buildPhases = (
+				A035B9562A97B2A100DBFA54 /* Sources */,
+				A035B9572A97B2A100DBFA54 /* Frameworks */,
+				A035B9582A97B2A100DBFA54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A035B95C2A97B2A100DBFA54 /* PBXTargetDependency */,
+			);
+			name = HearthstoneAppUITests;
+			productName = HearthstoneAppUITests;
+			productReference = A035B95A2A97B2A100DBFA54 /* HearthstoneAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A035B9372A97B2A000DBFA54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				ORGANIZATIONNAME = "Filipe Oliveira";
+				TargetAttributes = {
+					A035B93E2A97B2A000DBFA54 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					A035B94F2A97B2A100DBFA54 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = A035B93E2A97B2A000DBFA54;
+					};
+					A035B9592A97B2A100DBFA54 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = A035B93E2A97B2A000DBFA54;
+					};
+				};
+			};
+			buildConfigurationList = A035B93A2A97B2A000DBFA54 /* Build configuration list for PBXProject "HearthstoneApp" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A035B9362A97B2A000DBFA54;
+			productRefGroup = A035B9402A97B2A000DBFA54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A035B93E2A97B2A000DBFA54 /* HearthstoneApp */,
+				A035B94F2A97B2A100DBFA54 /* HearthstoneAppTests */,
+				A035B9592A97B2A100DBFA54 /* HearthstoneAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A035B93D2A97B2A000DBFA54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A035B94B2A97B2A000DBFA54 /* Preview Assets.xcassets in Resources */,
+				A035B9472A97B2A000DBFA54 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A035B94E2A97B2A100DBFA54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A035B9582A97B2A100DBFA54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A035B93B2A97B2A000DBFA54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0171C592A97D9A70076419F /* CardListInteractor.swift in Sources */,
+				A0171C622A97DAA90076419F /* CardDetailPresenter.swift in Sources */,
+				A0171C602A97DA990076419F /* CardDetailInteractor.swift in Sources */,
+				A035B9452A97B2A000DBFA54 /* CardListView.swift in Sources */,
+				A0CDFDB12A9BB509002E130F /* CardDetailView.swift in Sources */,
+				A0171C572A97D9900076419F /* CardListPresenter.swift in Sources */,
+				A035B9432A97B2A000DBFA54 /* App.swift in Sources */,
+				A0171C642A97DAF40076419F /* CardList.swift in Sources */,
+				A0171C682A97DB150076419F /* CardDetail.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A035B94C2A97B2A100DBFA54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A08D770E2A9A401800DE6B38 /* CardDetail.swift in Sources */,
+				A06F540D2A9A4CBD00AA5B27 /* CardListView.swift in Sources */,
+				A08D770A2A9A3AB800DE6B38 /* CardList.swift in Sources */,
+				A08D77092A9A3A5900DE6B38 /* CardListTests.swift in Sources */,
+				A08D77112A9A401E00DE6B38 /* CardDetailPresenter.swift in Sources */,
+				A08D770D2A9A3AC200DE6B38 /* CardListPresenter.swift in Sources */,
+				A08D770C2A9A3AC000DE6B38 /* CardListInteractor.swift in Sources */,
+				A0CDFDB22A9BB5D9002E130F /* CardDetailView.swift in Sources */,
+				A0682D4E2A9AA707007D09A5 /* CardDetailTests.swift in Sources */,
+				A08D77102A9A401C00DE6B38 /* CardDetailInteractor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A035B9562A97B2A100DBFA54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A035B9612A97B2A100DBFA54 /* HearthstoneAppUITestsLaunchTests.swift in Sources */,
+				A035B95F2A97B2A100DBFA54 /* HearthstoneAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A035B9522A97B2A100DBFA54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A035B93E2A97B2A000DBFA54 /* HearthstoneApp */;
+			targetProxy = A035B9512A97B2A100DBFA54 /* PBXContainerItemProxy */;
+		};
+		A035B95C2A97B2A100DBFA54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A035B93E2A97B2A000DBFA54 /* HearthstoneApp */;
+			targetProxy = A035B95B2A97B2A100DBFA54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A035B9622A97B2A100DBFA54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A035B9632A97B2A100DBFA54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A035B9652A97B2A100DBFA54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HearthstoneApp/HearthstoneApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HearthstoneApp/Preview Content\"";
+				DEVELOPMENT_TEAM = QDM8KY5J4B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FDSO.HearthstoneApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A035B9662A97B2A100DBFA54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HearthstoneApp/HearthstoneApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HearthstoneApp/Preview Content\"";
+				DEVELOPMENT_TEAM = QDM8KY5J4B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FDSO.HearthstoneApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A035B9682A97B2A100DBFA54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QDM8KY5J4B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FDSO.HearthstoneAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HearthstoneApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HearthstoneApp";
+			};
+			name = Debug;
+		};
+		A035B9692A97B2A100DBFA54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QDM8KY5J4B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FDSO.HearthstoneAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HearthstoneApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HearthstoneApp";
+			};
+			name = Release;
+		};
+		A035B96B2A97B2A100DBFA54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QDM8KY5J4B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FDSO.HearthstoneAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = HearthstoneApp;
+			};
+			name = Debug;
+		};
+		A035B96C2A97B2A100DBFA54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QDM8KY5J4B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FDSO.HearthstoneAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = HearthstoneApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A035B93A2A97B2A000DBFA54 /* Build configuration list for PBXProject "HearthstoneApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A035B9622A97B2A100DBFA54 /* Debug */,
+				A035B9632A97B2A100DBFA54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A035B9642A97B2A100DBFA54 /* Build configuration list for PBXNativeTarget "HearthstoneApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A035B9652A97B2A100DBFA54 /* Debug */,
+				A035B9662A97B2A100DBFA54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A035B9672A97B2A100DBFA54 /* Build configuration list for PBXNativeTarget "HearthstoneAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A035B9682A97B2A100DBFA54 /* Debug */,
+				A035B9692A97B2A100DBFA54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A035B96A2A97B2A100DBFA54 /* Build configuration list for PBXNativeTarget "HearthstoneAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A035B96B2A97B2A100DBFA54 /* Debug */,
+				A035B96C2A97B2A100DBFA54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A0171C6A2A97DCB00076419F /* HearthstoneAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HearthstoneAPI;
+		};
+		A0549BD92A9A2A0E004982A9 /* ArchitectureKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ArchitectureKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A035B9372A97B2A000DBFA54 /* Project object */;
+}
